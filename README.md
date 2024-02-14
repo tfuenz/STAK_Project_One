@@ -49,7 +49,7 @@ Part 2 - Statistical Analysis
 
 1. Perform an independent sample t-test, using a 95% level of confidence, with the two independent variables and determine if the null hypothesis will be rejected or accepted.
 
-2. Find the mean of each variable to support the results of the independent t-tes. 
+2. Find the mean of each variable to support the results of the independent t-test. 
 
 Null Hypothesis: If the number of dogs given up for adoption is not related to urbanization, the total difference in the amount of dogs given up for adoption in metropolitan compared to suburban areas will be 5% or less of each other.
 
