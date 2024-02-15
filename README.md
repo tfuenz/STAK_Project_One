@@ -1,22 +1,59 @@
 # STAK_Project_One
 A shared repository for the first project.
 
-Understand the rate of cat and dog adoptions between major metropolitan areas and what animal characteristics are most common for each of those areas.
+Understand if more dogs are given up for adoption in the major  metropolitan areas compared to the surrounding suburban areas listed below.  
 
-1. Retrieve data from US Census to identify the 5 largest major metropolitan areas
+According to 2022 US Census data, the 5 largest major metropolitan areas are as follows:
 
-2. Create a pie chart for each city to show the adoption percentage for cats and dogs and geomap the number of cats to dogs given up for adoption across major metropolitan areas. 
+Independent Variable 1:  Metropolitan Cities
+1. NYC, NY
+2. Los Angeles, CA
+3. Phoenix, AZ 
+4. Chicago, IL 
+5. Dallas, TX
 
-3. Create bar chart comparing the monthly number of cats put up for adoption across the 5 different major cities. 
+Independent Variable 2: Suburban Cities
+1. Yonkers, NY
+2. Mission Viejo, CA
+3. Mesa, AZ
+4. Schaumburg, IL
+5. Pearland, TX
 
-4. Create bar chart comparing the monthly number of dogs put up for adoption across the 5 different major cities. 
+Before completing the tasks below, pull in Pet Finder API and create a csv file.
 
-5. Create a line graph showing the monthly trend of cat adoptions over the year, highlighting any peaks or troughs that may indicate seasonal surrender patterns.
+Part 1 - Research Questions
 
-6. Create a line graph for dog adoptions over the same period, allowing for comparison to see if certain times of the year affect the adoption rates of dogs differently than cats.
+Question 1:  Are people who live in metropolitan areas versus the suburbs more likely to put dogs up for adoption? 
 
-7. Create a series of pie charts for each major city showing the proportion of adopted cats by color, size, or breed. This can reveal if certain characteristics are more favored in specific urban environments.
+1. Create bar chart comparing the number of dogs up for adoption in all major metropolitan and suburban cities identified above. 
 
-8. Create a series of pie charts for each major city showing the proportion of adopted dogs by color, size, or breed. This can reveal if certain characteristics are more favored in specific urban environments.
+2. Produce a map with bubbles sized to illustrate the number of dogs up for adoption in each city.  
 
-9. A geomap the cities with the highest adoption rates with specific characteristics (e.g., small vs. large dogs, or color variations). This visualization will pinpoint regional preferences or biases towards certain pet features.
+3. Create a pie chart for the total amount of dogs up for adoption aggregated in two independent variables, metropolitan and suburban areas. 
+
+Question 2:  Are people living in metropolitan areas compared to suburbs more likely to put large dogs up for adoption?
+
+1. Create a pie chart for each city illustrating the size of dogs up for adoption.
+
+2. Run an independent t-test comparing the dog size for each metropolitan city to the surrounding suburban city.
+
+3. Run an independent t-test for the dog sizes aggregated in two independent variable, metropolitan and suburban areas. 
+
+Question 3:  Are cats less likely to be given up for adoption in metropolitan areas?
+
+1.  Produce a bar graph comparing how many cats and dogs are up for adoption in each metropolitan city.
+
+2.  Create a pie graph comparing how many cats and dogs are up for adoption in each metropolitan city.
+
+Part 2 - Statistical Analysis
+
+1. Perform an independent sample t-test, using a 95% level of confidence, with the two independent variables and determine if the null hypothesis will be rejected or accepted.
+
+2. Find the mean of each variable to support the results of the independent t-test. 
+
+Null Hypothesis: If the number of dogs given up for adoption is not related to urbanization, the total difference in the amount of dogs given up for adoption in metropolitan compared to suburban areas will be 5% or less of each other.
+
+Alternate Hypothesis: If the number of dogs given up for adoption is related to urbanization, the total difference in the amount of dogs given up for adoption in metropolitan compared to suburban areas will be greater than 5% of each other.
+
+
+
